@@ -1,0 +1,106 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("./assest/photo-1613040613515-238b910f2abd.jpg") 0 0 no-repeat;
+  height: 100vh;
+  background-size: cover;
+
+  position: relative;
+}
+.Clear {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+    url("./assest/alex-fung-II8wToNtecQ-unsplash.jpg") 0 0 no-repeat;
+  height: 100vh;
+  background-size: cover;
+
+  position: relative;
+}
+.Haze {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)),
+    url("./assest/alexandru-boicu--YTxNqp2FKY-unsplash.jpg") 0 0 no-repeat;
+  height: 100vh;
+  background-size: cover;
+
+  position: relative;
+}
+.Clouds {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("./assest/daniel-pascoa-tjiPN3e45WE-unsplash.jpg") 0 0 no-repeat;
+  height: 100vh;
+  background-size: cover;
+
+  position: relative;
+}
+
+.main {
+}
+.main__left {
+  /* background-color: pink; */
+  height: 100vh;
+  padding-bottom: 80px;
+  color: white;
+}
+.main__right {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3));
+  /* background-color: purple; */
+  height: 100vh;
+}
+.header__searchBar {
+  display: flex;
+
+  /* flex:1; */
+  padding: 10px;
+  height: 50px;
+  border: 1px solid lightgray;
+  border-radius: 999px;
+}
+.header__searchBar > input {
+  border: none;
+  width: 100vw;
+  padding: 1px;
+  outline-width: 0;
+  background-color: transparent;
+  color: white;
+}
+.header__searchBar > input::-webkit-input-placeholder {
+  color: red;
+}
+.main__left__heading {
+  /* display: flex;
+    justify-content: flex-end; */
+}
+.main__left__heading > h1 {
+  font-size: 100px;
+}
+.main__right__data {
+  color: white;
+  padding: 0 15px;
+}
+.right_p {
+  color: rgb(202, 199, 199);
+}
+.main__right__weather {
+  /* margin-top: 30px; */
+}
+.right__line {
+  background-color: white;
+  opacity: 0.5;
+}
+@media only screen and (max-width: 767px) {
+  body {
+    height: auto;
+  }
+  .Clear {
+    height: auto;
+  }
+  .Haze {
+    height: auto;
+  }
+  .Clouds {
+    height: auto;
+  }
+
+  .main__right {
+    margin-top: -380px;
+    border-radius: 30px;
+  }
+}
